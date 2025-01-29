@@ -17,7 +17,7 @@ function menu(){
    item.style.display = 'block';
    item.style.transition='all 1.3s ease-in-out 0s';
    item.style.transform = 'scale(20px) translate(30px)';
-   item.style.width = '600px';
+   item.style.width = '250px';
    item.style.height = '100%';
   //  item.style.position='fixed';
 
