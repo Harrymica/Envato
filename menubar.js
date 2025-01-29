@@ -13,10 +13,14 @@ function menu(){
    var getBtn = document.querySelector('.menu-button');
    var getcloseBtn = document.querySelector('.close-btn');
 
+
    item.style.display = 'block';
-   item.style.transition='all 0.3s ease-in-out 0s';
+   item.style.transition='all 1.3s ease-in-out 0s';
    item.style.transform = 'scale(20px) translate(30px)';
-   item.style.width = '200px';
+   item.style.width = '600px';
+   item.style.height = '100%';
+  //  item.style.position='fixed';
+
    getBtn.style.display = "none";
    getcloseBtn.style.display = "block";
    //item.className = 'menu-button';
